@@ -1,0 +1,86 @@
+@media only screen and (max-width:600px) {
+    
+    #search-bar{
+
+        max-width: 80px;
+        background-color: rgba(46, 43, 43, 0);
+        outline: none;
+        padding: 0rem 1rem ;
+        caret-color: rgb(125, 128, 131);
+        border-radius: 1rem 0rem 0rem 1rem ;
+        border: 1px solid rgb(46, 43, 43);
+        
+    }
+
+    .navbar{
+
+        padding-right: 2.6remrem;
+        
+    }
+
+    .icons{
+
+        font-size: 0.7rem;
+    }
+    
+    .speaker{
+
+        width: 20px;
+        height: 20px;
+        background-color: rgb(46, 43, 43);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        margin-left: 0.5rem;
+    
+        cursor: pointer;
+    }
+
+    .speaker i{
+
+         font-size: 0.6rem;
+    }
+
+    .glass{
+
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(46, 43, 43) ;
+        padding: 0.03rem 0rem ;
+        border-radius: 0rem 1rem 1rem 0rem ;
+        cursor: pointer;
+    }
+
+    .glass i{
+
+         font-size: 0.6;
+    }
+
+    #search-bar::placeholder{
+
+        font-size: 0.6rem;
+    }
+
+    .all-videos {
+
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 2rem 0rem;
+    }
+
+    .categories {
+
+        display: flex;
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    
+
+}
